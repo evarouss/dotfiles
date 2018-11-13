@@ -1,0 +1,15 @@
+code --install-extension azemoh.one-monokai
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension donjayamanne.githistory
+code --install-extension eamodio.gitlens
+code --install-extension eg2.tslint
+code --install-extension eg2.vscode-npm-script
+code --install-extension emmanuelbeziat.vscode-great-icons
+code --install-extension esbenp.prettier-vscode
+code --install-extension mohsen1.prettify-json
+code --install-extension ms-vscode.sublime-keybindings
+code --install-extension ms-vsliveshare.vsliveshare
+code --install-extension robinbentley.sass-indented
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension toba.vsfire
+code --install-extension wix.vscode-import-cost

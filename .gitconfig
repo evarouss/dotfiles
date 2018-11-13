@@ -1,0 +1,37 @@
+[pull]
+	rebase = true
+[user]
+	name = Julien Rousseau
+	email = evarouss@gmail.com
+[credential]
+	helper = osxkeychain
+[alias]
+	co = checkout
+	st = status
+	lg = log
+	lgp = log --pretty=format:\"%h %s\" --graph
+	rso = remote show origin
+	dsf = "!f() { [ -z \"$GIT_PREFIX\" ] || cd \"$GIT_PREFIX\" && git diff --color \"$@\" | diff-so-fancy  | less --tabs=4 -RFX; }; f"
+[merge]
+	tool = opendiff
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  ui = always
+  pager = true
+[color "status"]
+  added = green
+  changed = red bold
+  untracked = magenta bold
+[color "branch"]
+  remote = yellow
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[core]
+	editor = 'code' --wait
+	pager = diff-so-fancy | less --tabs=4 -RFX

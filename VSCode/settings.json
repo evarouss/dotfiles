@@ -1,0 +1,48 @@
+{
+    "beautify.ignore": [
+        "*.js"
+    ],
+    // Node Debug
+    "debug.node.autoAttach": "on",
+    // Editor
+    "editor.formatOnPaste": true,
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renderWhitespace": "boundary",
+    "editor.snippetSuggestions": "top",
+    "editor.tabSize": 2,
+    // git
+    "git.autoRepositoryDetection": false,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.blame.file.lineHighlight.enabled": false,
+    "gitlens.blame.line.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.historyExplorer.enabled": true,
+    "gitlens.hovers.currentLine.enabled": false,
+    "gitlens.keymap": "none",
+    "gitlens.mode.active": "zen",
+    "gitlens.stashExplorer.enabled": false,
+    "guides.enabled": false,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "markdown-pdf.format": "Letter",
+    "sublimeTextKeymap.promptV3Features": true,
+    // Integrated Terminal
+    "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
+    "terminal.integrated.scrollback": 10000,
+    "window.zoomLevel": 0,
+    // Workbench
+    "workbench.colorTheme": "Monokai",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.statusBar.visible": true
+}
