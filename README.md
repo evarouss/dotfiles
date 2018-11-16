@@ -14,7 +14,7 @@
 
 5. Clone repository to hidden .dotfile directory in your home directory
 
-```git clone git@github.com:evarouss/dotfiles.git ~/.dotfile```
+```git clone git@github.com:evarouss/dotfiles.git ~/.dotfiles```
 
 6. Run setup-symlinks.sh
 
@@ -34,7 +34,7 @@ ln -s /Users/evarouss/.dotfiles/VSCode/keybindings.json ~/Library/Application\ S
 
 9. Install VSCode plugins
 
-```source ~/VSCode/install-plugins.sh```
+```source ~/.dotfiles/VSCode/install-plugins.sh```
 
 10. Install Software part 2 (App Store)
 
