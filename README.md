@@ -1,10 +1,8 @@
 # dotfiles
 
-1. Install [brew](https://brew.sh/).
+1. `xcode-select --install`
 
-2. Install git.
-
-```brew install git```
+2. Install [brew](https://brew.sh/).
 
 3. iTerm [Setup](https://gist.github.com/kevin-smets/8568070)
 
