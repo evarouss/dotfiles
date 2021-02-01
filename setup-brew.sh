@@ -2,7 +2,6 @@ brew install git
 brew install yarn
 brew install fzf
 
-brew install caskroom/cask/brew-cask --cask
 brew install spotify --cask
 brew install xscope --cask
 brew install google-chrome --cask
