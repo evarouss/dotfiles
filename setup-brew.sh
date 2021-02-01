@@ -2,12 +2,12 @@ brew install git
 brew install yarn
 brew install fzf
 
-brew install caskroom/cask/brew-cask
-brew cask install spotify
-brew cask install xscope
-brew cask install google-chrome
-brew cask install sketch
-brew cask install private-internet-access
-brew cask install 1password
-brew cask install visual-studio-code
-brew cask install rectangle
+brew install caskroom/cask/brew-cask --cask
+brew install spotify --cask
+brew install xscope --cask
+brew install google-chrome --cask
+brew install sketch --cask
+brew install private-internet-access --cask
+brew install 1password --cask
+brew install visual-studio-code --cask
+brew install rectangle --cask
